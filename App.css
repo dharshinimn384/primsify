@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Arial, sans-serif';
+  background-color: #f0f0f0; /* Set a light background color */
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #6a0572;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease; /* Add a smooth transition on hover */
+}
+
+.nav-link:hover {
+  background-color: #471747; /* Change background color on hover */
+}
+
+.content {
+  flex: 1;
+  padding: 10px;
+  background-color: #fff; /* Set a white background color */
+  position: relative;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.user-info {
+  color: #333;
+  margin-top: 20px;
+}
+
+.logout-btn,
+.login-btn {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add smooth transitions */
+}
+
+.logout-btn {
+  background: #3498db;
+  color: #fff;
+}
+
+.logout-btn:hover {
+  background: #20638f; /* Darken the color on hover */
+}
+
+.login-btn {
+  background: #2ecc71;
+  color: #fff;
+}
+
+.login-btn:hover {
+  background: #218c58; /* Darken the color on hover */
+}
+
+.welcome-message {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #6a0572;
+}
